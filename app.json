@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Tequila blog",
+    "slug": "tequila-blog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tequillaboom.blog_gto",
+      "versionCode": 1,
+      "permissions": ["CAMERA","WRITE_EXTERNAL_STORAGE"]
+    }
+  }
+}
